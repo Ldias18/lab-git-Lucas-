@@ -34,7 +34,7 @@ int main(void) {
    scanf("%d",&x);
    printf("\n\nDigite o número y: ");
    scanf("%d",&y);
-
+   printf("\nA somatória é: %l", somatoriaRecursiva(x,y));
    return 0;
 }
 
